@@ -6,7 +6,7 @@ namespace basic13
     {
         public static void Main() 
         {
-            PrintNumbers();
+            PrintOdds();
         }
         static void PrintNumbers()
         {
@@ -22,16 +22,30 @@ namespace basic13
             //    if (n is int){
          }
 
-    }
-}
-                
+
         
-//         public static void PrintOdds()
-//         {
-//             for (int n = 1; n < (255 + 1); n++)
-//             {
-//                 if (n % 2 != 0)
-//             }
+         static void PrintOdds(int n)
+        {
+            // Console.WriteLine("Enter a number: ");
+            // // for (int odd = 1; odd < (255 + 1); odd++)
+            // //     if (odd % 2 != 0)
+            // // Console.WriteLine(odd);
+            // int n = Convert.ToInt32(Console.ReadLine());
+
+            System.Console.WriteLine(" Odd numbers are: ", n);
+            PrintOdds(1,n);
+            return;
+            }
+            static void PrintOdds(int stVal, int n)
+            {
+                if(stVal > n)
+                return;
+                System.Console.WriteLine("{0}",stVal);
+                PrintOdds(stVal+2, n);
+            }
+    } //move as you go to next function, for end brackets
+}//move as you go to next function, for end brackets
+                
             
 //             // Print all of the odd integers from 1 to 255.
 //         }
