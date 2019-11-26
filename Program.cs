@@ -26,11 +26,11 @@ namespace basic13
         
          static void PrintOdds(int n)
         {
-            Console.WriteLine("Enter a number: ");
-            // for (int odd = 1; odd < (255 + 1); odd++)
-            //     if (odd % 2 != 0)
-            // Console.WriteLine(odd);
-            int n = Convert.ToInt32(Console.ReadLine());
+            // Console.WriteLine("Enter a number: ");
+            // // for (int odd = 1; odd < (255 + 1); odd++)
+            // //     if (odd % 2 != 0)
+            // // Console.WriteLine(odd);
+            // int n = Convert.ToInt32(Console.ReadLine());
 
             System.Console.WriteLine(" Odd numbers are: ", n);
             PrintOdds(1,n);
