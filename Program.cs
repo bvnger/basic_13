@@ -6,7 +6,7 @@ namespace basic13
     {
         public static void Main() 
         {
-            PrintOdds();
+            PrintOdds(255);//must pass in number or error/ in other version user passes number
         }
         static void PrintNumbers()
         {
@@ -43,8 +43,7 @@ namespace basic13
                 System.Console.WriteLine("{0}",stVal);
                 PrintOdds(stVal+2, n);
             }
-    } //move as you go to next function, for end brackets
-}//move as you go to next function, for end brackets
+
                 
             
 //             // Print all of the odd integers from 1 to 255.
@@ -59,7 +58,9 @@ namespace basic13
 //             // New number: 0 Sum: 0
 //             // New number: 1 Sum: 1
 //             // New Number: 2 Sum: 3
-//         }
+//         } 
+} //move as you go to next function, for end brackets
+}//move as you go to next function, for end brackets
 //         public static void LoopArray(int[] numbers)
 //         {
             
